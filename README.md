@@ -1,6 +1,7 @@
 # Node.js-Project-I-need-help-
 Making a discord bot but has an error (syntax: unexpected end of input) and I need help
-const app = express()
+
+```const app = express()
 const Database = require("@replit/database")
 const db = new Database()
 app.get("/", (req, res) => {
@@ -235,4 +236,4 @@ if(message.content.toLowerCase().startsWith(".daily")) {
     let currentBalance = await db.get(`wallet_${message.author.id}`)
     message.channel.send(`You have claimed ${reward.toLocaleString()}${currency} and come back tomorrow for another reward!`)
 }
-}})}})
+}})}})```
